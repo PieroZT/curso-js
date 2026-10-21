@@ -1,7 +1,7 @@
 //Almacenar un texto en una variable y luego mostrarlo en orden inverso en la consola
 //Ejemplo: "senati" -> "itanes"
 
-/*const textoOriginal = "ALESSANDRO";
+const textoOriginal = "ALESSANDRO";
 const longitud = textoOriginal.length;
 
 let textoHorizontal = "";
@@ -9,7 +9,7 @@ let textoHorizontal = "";
 for (let i = longitud - 1; i >= 0; i--) {
   textoHorizontal += textoOriginal.substring(i, i + 1);
 }
-console.log(textoHorizontal);*/ 
+console.log(textoHorizontal);
 
 //Crear una variable donde almacene una direccion de correo electronico
 //verificar si el correo es valido cuando tiene un solo @
@@ -21,13 +21,13 @@ const correo = "youmain@@gmail.com";
 let total = 0;
 
 for (let i = 0; i < correo.length; i++) {
-    if (correo[i] === "@") {
-        total++;
-    }
+  if (correo[i] === "@") {
+    total++;
+  }
 }
 
 if (total === 1) {
-    console.log("Correo correcto");
+  console.log("Correo correcto");
 } else {
-    console.log("Correo incorrecto");
+  console.log("Correo incorrecto");
 }
